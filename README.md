@@ -12,5 +12,5 @@ Another approach can be setting up a server and connecting two different clients
 `NFS` approach works for all UNIX based or UNIX-like systems (I tested the code on RHEL and Ubuntu), to add access to Windows, `SMB` Protocol should be used.
 
 To run the code:
-run `python3 server.py` and set up the share
-next, run `python3 client.py` on a different system, let the code do the rest.
+* run `python3 server.py` and set up the share
+* next, run `python3 client.py` on a different system, let the code do the rest.
